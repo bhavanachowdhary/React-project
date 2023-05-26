@@ -6,10 +6,10 @@ function Content() {
   return (
     <div className="card" style={{ width: 600 }}>
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_619HZPdD3ZHf9O-3HFOeeQkR83Ir9D7LUQ&usqp=CAU://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
         className="card-img-top"
         alt="..."
-        style={{ width: 100 }}
+        style={{ width: 300 }}
       />
       <div className="card-body">
         <h5 className="card-title">Getting Started With React</h5>

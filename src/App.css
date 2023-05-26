@@ -1,4 +1,6 @@
 .navbar{
     background-color: #2957ed;
 }
-
+.card-img-top {
+    width: 100%;
+}

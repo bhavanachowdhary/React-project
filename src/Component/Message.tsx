@@ -1,7 +1,12 @@
-function Message() {
-  const name = "";
-  if (name) return <h1>Hello {name}</h1>;
-  return <h1>Hello World</h1>;
+import { useState } from "react";
+function FavColor() {
+  const [color, setColor] = useState("Red");
+  return (
+    <div>
+      <h1>My Fav Color is {color}</h1>
+      <button onClick={() => setColor("Green")}> Green</button>
+      <button onClick={() => setColor("Yellow")}>Yellow</button>
+    </div>
+  );
 }
-
-export default Message;
+export default FavColor;
