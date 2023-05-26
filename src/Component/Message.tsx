@@ -1,12 +1,7 @@
-import { useState } from "react";
-function FavColor() {
-  const [color, setColor] = useState("Red");
-  return (
-    <div>
-      <h1>My Fav Color is {color}</h1>
-      <button onClick={() => setColor("Green")}> Green</button>
-      <button onClick={() => setColor("Yellow")}>Yellow</button>
-    </div>
-  );
+interface Props {
+  text: string;
 }
-export default FavColor;
+function Message(props: Props) {
+  return <h1>{props.text}</h1>;
+}
+export default Message;

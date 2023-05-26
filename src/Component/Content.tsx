@@ -14,7 +14,7 @@ function Content() {
       <div className="card-body">
         <h5 className="card-title">Getting Started With React</h5>
         <p className="card-text">
-          React is a free and open-source front-end JavaScript library for
+          React is a free and open-source front-end JavaScript library not for
           building user interfaces based on components.
         </p>
         <a href="#" className="btn btn-primary">

@@ -3,8 +3,11 @@ import Menu from "./Component/Menu";
 import Content from "./Component/Content";
 import Footer from "./Component/Footer";
 import "./App.css";
+import Message from "./Component/Message";
 
 function App() {
+  let items = ["Home", "About", "Services", "Contact"];
+
   return (
     // { <Header />
     // <div>
@@ -21,7 +24,7 @@ function App() {
       <br></br>
       <div className="row">
         <div className="col-sm-4">
-          <Menu></Menu>
+          <Menu items={items}></Menu>
         </div>
         <div className="col-sm-8">
           <Content />
@@ -31,6 +34,7 @@ function App() {
       <div className="row text-center">
         <div className="col-sm-12">
           <Footer />
+          <Message text="Hello My First Property"></Message>
         </div>
       </div>
     </div>
